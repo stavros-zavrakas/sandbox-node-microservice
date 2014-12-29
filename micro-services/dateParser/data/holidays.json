@@ -1,0 +1,38 @@
+[
+    {
+        name : "christmas",
+        synonyms: ["xmas","endyear"]
+        from:"2015-12-21",
+        till:"2016-01-01"
+    },
+    {
+        name : "spring",
+        synonyms: []
+        from:"2015-02-09",
+        till:"2015-02-20"
+    },
+    {
+        name : "easter",
+        synonyms: []
+        from:"2015-03-30",
+        till:"2015-04-17"
+    },
+    {
+        name : "half term",
+        synonyms: []
+        from:"2015-05-25",
+        till:"2015-05-29"
+    },
+    {
+        name : "summer",
+        synonyms: []
+        from:"2015-07-11",
+        till:"2015-08-31"
+    },
+    {
+        name : "autumn",
+        synonyms: []
+        from:"2015-10-15",
+        till:"2015-10-30"
+    }
+]
