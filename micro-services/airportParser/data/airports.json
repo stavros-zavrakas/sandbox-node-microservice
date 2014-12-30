@@ -4197,7 +4197,8 @@
     "timeZoneOffsetFromUTC":1,
     "daylightSavingsTime":"E",
     "timeZoneInTzDataFormat":"Europe/Brussels",
-    "countryIsoCode2":"BE"
+    "countryIsoCode2":"BE",
+    "score":"1"
   },
   {
     "name":"Bertrix",
@@ -14515,7 +14516,8 @@
     "timeZoneOffsetFromUTC":0,
     "daylightSavingsTime":"E",
     "timeZoneInTzDataFormat":"Atlantic/Canary",
-    "countryIsoCode2":"ES"
+    "countryIsoCode2":"ES",
+    "score":1
   },
   {
     "name":"Lanzarote",
@@ -23265,7 +23267,8 @@
     "timeZoneOffsetFromUTC":2,
     "daylightSavingsTime":"E",
     "timeZoneInTzDataFormat":"Europe/Istanbul",
-    "countryIsoCode2":"TR"
+    "countryIsoCode2":"TR",
+    "score":1
   },
   {
     "name":"Oguzeli",
@@ -55297,7 +55300,8 @@
     "timeZoneOffsetFromUTC":2,
     "daylightSavingsTime":"N",
     "timeZoneInTzDataFormat":"Africa/Cairo",
-    "countryIsoCode2":"EG"
+    "countryIsoCode2":"EG",
+    "score":1
   },
   {
     "name":"Franklin",
@@ -100184,7 +100188,7 @@
     "countryIsoCode2":"FR"
   },
   {
-    "name":"All Airports",
+    "name":"Paris, All Airports",
     "city":"Paris",
     "country":"France",
     "iataCode":"PAR",
@@ -100195,7 +100199,8 @@
     "timeZoneOffsetFromUTC":1,
     "daylightSavingsTime":"E",
     "timeZoneInTzDataFormat":"Europe/Paris",
-    "countryIsoCode2":"FR"
+    "countryIsoCode2":"FR",
+    "score":1
   },
   {
     "name":"Ostbahnhof",
@@ -100212,7 +100217,7 @@
     "countryIsoCode2":"DE"
   },
   {
-    "name":"All Airports",
+    "name":"London, All Airports",
     "city":"London",
     "country":"United Kingdom",
     "iataCode":"LON",
@@ -100223,10 +100228,11 @@
     "timeZoneOffsetFromUTC":0,
     "daylightSavingsTime":"E",
     "timeZoneInTzDataFormat":"Europe/London",
-    "countryIsoCode2":"GB"
+    "countryIsoCode2":"GB",
+    "score":1
   },
   {
-    "name":"All Airports",
+    "name":"New York, All Airports",
     "city":"New York",
     "country":"United States",
     "iataCode":"NYC",
@@ -100237,10 +100243,11 @@
     "timeZoneOffsetFromUTC":-5,
     "daylightSavingsTime":"A",
     "timeZoneInTzDataFormat":"America/New_York",
-    "countryIsoCode2":"US"
+    "countryIsoCode2":"US",
+    "score":1
   },
   {
-    "name":"All Airports",
+    "name":"Chicago, All Airports",
     "city":"Chicago",
     "country":"United States",
     "iataCode":"CHI",
@@ -100251,7 +100258,8 @@
     "timeZoneOffsetFromUTC":-6,
     "daylightSavingsTime":"A",
     "timeZoneInTzDataFormat":"America/Chicago",
-    "countryIsoCode2":"US"
+    "countryIsoCode2":"US",
+    "score":1
   },
   {
     "name":"Meigs Field",
@@ -100268,7 +100276,7 @@
     "countryIsoCode2":"US"
   },
   {
-    "name":"All Airports",
+    "name":"Tokyo, All Airports",
     "city":"Tokyo",
     "country":"Japan",
     "iataCode":"TYO",
@@ -100279,10 +100287,11 @@
     "timeZoneOffsetFromUTC":9,
     "daylightSavingsTime":"U",
     "timeZoneInTzDataFormat":"Asia/Tokyo",
-    "countryIsoCode2":"JP"
+    "countryIsoCode2":"JP",
+    "score":1
   },
   {
-    "name":"All Airports",
+    "name":"Beijing, All Airports",
     "city":"Beijing",
     "country":"China",
     "iataCode":"BJS",
@@ -100293,10 +100302,11 @@
     "timeZoneOffsetFromUTC":8,
     "daylightSavingsTime":"U",
     "timeZoneInTzDataFormat":"Asia/Chongqing",
-    "countryIsoCode2":"CN"
+    "countryIsoCode2":"CN",
+    "score":1
   },
   {
-    "name":"All Airports",
+    "name":"Milan, All Airports",
     "city":"Milan",
     "country":"Italy",
     "iataCode":"MIL",
@@ -100307,10 +100317,11 @@
     "timeZoneOffsetFromUTC":1,
     "daylightSavingsTime":"E",
     "timeZoneInTzDataFormat":"Europe/Rome",
-    "countryIsoCode2":"IT"
+    "countryIsoCode2":"IT",
+    "score":1
   },
   {
-    "name":"All Airports",
+    "name":"Washington, All Airports",
     "city":"Washington",
     "country":"United States",
     "iataCode":"WAS",
@@ -100321,10 +100332,11 @@
     "timeZoneOffsetFromUTC":-5,
     "daylightSavingsTime":"A",
     "timeZoneInTzDataFormat":"America/New_York",
-    "countryIsoCode2":"US"
+    "countryIsoCode2":"US",
+    "score":1
   },
   {
-    "name":"All Airports",
+    "name":"Montreal, All Airports",
     "city":"Montreal",
     "country":"Canada",
     "iataCode":"YMQ",
@@ -100335,10 +100347,11 @@
     "timeZoneOffsetFromUTC":-5,
     "daylightSavingsTime":"A",
     "timeZoneInTzDataFormat":"America/Toronto",
-    "countryIsoCode2":"CA"
+    "countryIsoCode2":"CA",
+    "score":1
   },
   {
-    "name":"All Airports",
+    "name":"Toronto, All Airports",
     "city":"Toronto",
     "country":"Canada",
     "iataCode":"YTO",
@@ -100349,7 +100362,8 @@
     "timeZoneOffsetFromUTC":-5,
     "daylightSavingsTime":"A",
     "timeZoneInTzDataFormat":"America/Toronto",
-    "countryIsoCode2":"CA"
+    "countryIsoCode2":"CA",
+    "score" : 1
   },
   {
     "name":"Longhua Airport",

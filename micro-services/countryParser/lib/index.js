@@ -4,6 +4,9 @@ var natural = require("natural");
 
 var countryParser = {};
 
+/**
+ *
+ */
 countryParser.init = function init(){
     //load the data file
     countryParser._rawData = require("./../data/countries.json");
