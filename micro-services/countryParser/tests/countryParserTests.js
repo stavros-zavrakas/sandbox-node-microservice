@@ -3,29 +3,31 @@
 'use strict';
 
 var assert = require('assert');
-var countryParser = require('./../lib/index.js');
+var countryParser = require('./../lib/countryParser.js');
+var signature =  require('./../lib/signature.js');
+var packageJson = require('./../package.json');
 
 describe('Country Parser Tests ', function () {
     before(function() {
-        countryParser.init();
+        countryParser.init(signature.getSignature(packageJson));
     });
 
     it('It should be possible to detect Belgium as return isoCode2=BE', function (done) {
         var result = countryParser.parse('Belgium');
         console.log(result);
-        assert.equal(result.isoCode2,'BE');
+        assert.equal(result.country.isoCode2,'BE');
         done();
     });
 
     it('It should be possible to detect Brussel as return isoCode2=BE', function (done) {
         var result = countryParser.parse('Brussel');
         console.log(result);
-        assert.equal(result.isoCode2,'BE');
+        assert.equal(result.country.isoCode2,'BE');
         done();
     });
 
-    it('It should be possible to detect London and Egypth in a sentence and provide their isoCode2 back', function (done) {
-        var result = countryParser.parseSentence('Holiday from London to Egypth',0.95);
+    it('It should be possible to detect London and Egypt in a sentence and provide their isoCode2 back', function (done) {
+        var result = countryParser.parseSentence('Holiday from London to Egypt',0.95);
         console.log(result);
         //assert.equal(result.isoCode2,'BE');
         done();

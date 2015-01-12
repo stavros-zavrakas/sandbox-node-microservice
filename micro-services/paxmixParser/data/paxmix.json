@@ -1,0 +1,33 @@
+[
+    {
+        keyword : "baby",
+        synonyms : ["infant"],
+        defaultAge : [2]
+    },
+    {
+        keyword : "child",
+        synonyms : ["kid","adolescent","juvenile","minor","offspring"],
+        defaultAge : [10]
+    },
+    {
+        keyword : "teenager",
+        synonyms : ["youngster","youth"],
+        defaultAge : [14]
+    },
+    {
+        keyword : "adult",
+        synonyms : [],
+        defaultAge : [45]
+    },
+    {
+        keyword : "couple",
+        synonyms : [],
+        defaultAge : [45,45],
+        score:1
+    },
+    {
+        keyword : "family",
+        synonyms : [],
+        defaultAge : [45,45,10,10]
+    }
+]

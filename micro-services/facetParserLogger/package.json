@@ -1,0 +1,35 @@
+{
+  "name": "facetLogger",
+  "version": "0.0.1",
+  "description": "Log and index facetParser request and results, those can be used to build a addword search",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha --dir ./.coverage -- --recursive tests/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plaenen/sandbox-node-microservice"
+  },
+  "auth": "Pascal Laenen <plaenen@gmail.com>",
+  "dependencies": {
+    "argh": "^0.1.3",
+    "ip": "^0.3.2",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.0",
+    "mocha": "^1.21.4"
+  },
+  "keywords": [
+    "facetLogger microservice"
+  ],
+  "engines": {
+    "node": ">=0.10.30"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/plaenen/node-geonames/blob/master/LICENSE"
+    }
+  ]
+}

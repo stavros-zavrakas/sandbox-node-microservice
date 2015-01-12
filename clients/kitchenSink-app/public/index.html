@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>KitchenSink</title>
+        <script src="./lib/angular.min.js"></script>
+        <script src="./lib/socket.io-1.2.1.js"></script>
+        <script src="./lib/app.js"></script>
+    </head>
+    <body ng-app="KitchenSink" ng-controller="MainCtrl">
+        <div>
+            {{test}}
+        </div>
+
+        <script>
+            var socket = io();
+        </script>
+    </body>
+</html>

@@ -1,7 +1,7 @@
 {
-  "name": "countryParser",
+  "name": "dateParser",
   "version": "0.0.1",
-  "description": "Given a text-string, try to find the countries in the list",
+  "description": "Given a text-string, try to find the date entries",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test node node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha --dir ./.coverage -- --recursive tests/ -R spec"
@@ -13,8 +13,10 @@
   "auth": "Pascal Laenen <plaenen@gmail.com>",
   "dependencies": {
     "argh": "^0.1.3",
+    "ip": "^0.3.2",
     "moment": "^2.8.4",
     "natural": "^0.1.29",
+    "redis": "^0.12.1",
     "request": "^2.51.0",
     "underscore": "^1.7.0",
     "xml2json": "^0.5.1"
